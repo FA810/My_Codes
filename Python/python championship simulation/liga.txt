@@ -1,0 +1,20 @@
+Atletico Madrid:80
+Barcelona:87
+Real Madrid:87
+Athletic Bilbao:70
+Sevilla:63
+Villareal:59
+Real Sociedad:59
+Valencia:49
+Celta Vigo:49
+Levante:48
+Malaga:45
+Rayo Vallecano:43
+Getafe:42
+Espanyol:42
+Granada:41
+Elche:40
+Almeria:40
+Osasuna:39
+Valladolid:36
+Betis:25

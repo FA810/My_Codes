@@ -1,0 +1,17 @@
+- passa squadre in input attraverso text file
+	suggerimento: creare lista classi per squadre
+- genera calendario con le squadre passate
+	ottimizza la struttura per composizione e lettura risultati
+- genera i risultati delle partite secondo una qualche logica
+	rendi la logica modificabile
+preoccupati di creare una classifica in tempo reale ad ogni giornata
+	ricorda di aggiornare le statistiche per ogni squadra (reti fatte, subite, ...)
+
+- the teams must be passed through a text file (serie.txt, liga.txt)
+	hint: creat list with class for teams;
+- generate fixtures with passed teams (calendar.py).
+	optimize the structure for ranking and reading/writing results ;
+- generate the match playing according to some logic (matchplay.py)
+	make it possible to modify it
+- create and update the ranking after every match day
+	remember to update statistics for each team
