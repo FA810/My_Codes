@@ -1,13 +1,8 @@
-"""
-for x in range(1, 11):
-	print repr(x).rjust(2), repr(x*x).rjust(3),
-	# Note trailing comma on previous line
-	print repr(x*x*x).rjust(4)
-print
-for x in range(1,11):
-	print '{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x)
-"""
-
+'''
+Author: Fabio Rizzello
+Simulate a whole championship with random outcome.
+The teams are provided in input in a text file.
+'''
 
 import calendar
 import matchplay
@@ -96,14 +91,3 @@ for single_round in rounds:
 print "--- FINAL RANKING"
 show_ranking()
 #list_teams(teams)
-
-
-'''
-from Tkinter import *
-root = Tk()
-root.title("Titotolo")
-root.geometry("300x200")
-root.mainloop()
-'''
-
-

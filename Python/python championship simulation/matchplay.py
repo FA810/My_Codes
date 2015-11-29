@@ -1,3 +1,9 @@
+'''
+Author: Fabio Rizzello
+Simulate a single match with random outcome between two teams.
+The teams are provided in input in a text file.
+'''
+
 import random
 
 def play(team1,score1,team2,score2):
