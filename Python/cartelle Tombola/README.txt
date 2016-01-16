@@ -19,3 +19,6 @@ basterà fornire al plugin la directory del file csv e il nome del file di
 output; fare attenzione a riempire i campi di testo con il formato:
 
 %VAR_<nome_campo_in_csv>%
+
+UNIRE PDF CARTELLE IN UNICO PDF
+pdfunite *.pdf out.pdf
