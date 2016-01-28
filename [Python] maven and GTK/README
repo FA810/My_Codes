@@ -1,0 +1,12 @@
+An example of GTK window called by a Python program to 
+create a Maven project
+
+window.glade is the GTK window defined through some XML;
+gladeWindow.py is the python code.
+To launch the application type:
+
+python gladeWindow.py
+
+decide the artifact and group name of your new Maven project 
+and choose whether you want to create a quickstart simple 
+project or a web application.
