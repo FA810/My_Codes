@@ -1,3 +1,7 @@
+This code is available also in Python:
+https://github.com/FA810/My_Codes/tree/master/%5BPython%5D%20CharCounterGraph
+
+## Summary
 Given a text, count characters occurrencies and print a bar graph on screen
 scaled within a value of characters width.
 
