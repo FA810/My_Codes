@@ -2,6 +2,7 @@ Given a text, count characters occurrencies and print a bar graph on screen
 scaled within a value of characters width.
 
 For example, given the text:
+'''
 Linux (pronounced Listenin or, less frequently, is a Unix like and mostly 
 POSIX compliant[7]Linux (pronounced Listenior, less frequently, is a Unix 
 like and mostly POSIX compliant[7] computer operating system (OS) assembled 
@@ -66,8 +67,9 @@ commercial Red Hat Enterprise Linux and SUSE Linux Enterprise Server
 distributions. Linux distributions include the Linux kernel, supporting 
 utilities and libraries, and usually a large amount of application to fulfill 
 the distribution's intended use.
-
+'''
 The output will be:
+'''
 a = #################################
 b = ########
 c = #############
@@ -92,3 +94,4 @@ v = #####
 w = ####
 x = ######
 y = ########
+'''
