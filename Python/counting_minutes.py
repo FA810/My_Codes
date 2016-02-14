@@ -1,3 +1,12 @@
+'''
+Have the function CountingMinutesI(str) take the str parameter being passed 
+which will be two times (each properly formatted with a colon and am or pm) 
+separated by a hyphen and return the total number of minutes between the two 
+times. The time will be in a 12 hour clock format. For example: if str is 
+9:00am-10:00am then the output should be 60. If str is 1:00pm-11:00am the 
+output should be 1320. 
+'''
+
 def min_bef(hh,mm,pm):
 	if (pm==0) and hh==12:
 		return 1440 #h=0
@@ -48,10 +57,6 @@ def CountingMinutesI(sen):
 		return min_bef(lita[0],lita[1],lita[2])+min_aft(lita[3],lita[4],lita[5])
 
 
-
-    
-    
-
 sen= "1:23pm-1:08pm"  		#1425
 #  0   1   2   3   4   5
 #[13, 23, 01, 13, 08, 01]
@@ -69,8 +74,6 @@ sen9 = "5:00pm-5:11pm"   	#11
 print min_bef(12,30,1)
 print min_aft(12,30,1)
 '''    
-# keep this function call here  
-# to see how to enter arguments in Python scroll down
 
 print sen, CountingMinutesI(sen )
 print sen3,CountingMinutesI(sen3 ) 

@@ -22,22 +22,12 @@ def ChangingSequence(arr):
        
 
    
-arr = [5, 4, 3, 2, 10, 11]
+arr1 = [5, 4, 3, 2, 10, 11]
 arr2 =  [1, 2, 4, 6, 4, 3, 1]
 arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1]
 arr4 = [1,2,1]
-# keep this function call here
-# to see how to enter arguments in Python scroll down
-print ChangingSequence(arr3)
 
-'''
-1. When the input was (1, 2, 4, 6, 4, 3, 1) your output was incorrect.
-2. When the input was (1, 2, 1) your output was incorrect.
-3. When the input was (1, 2, 3, 4, 5, 6, 7, 8, 9, 1) your output was incorrect.
-4. When the input was (4, 3, 2, 1) your output was incorrect.
-5. When the input was (4, 5, 6, 5, 4, 2, 1) your output was incorrect.
-6. When the input was (5, 4, 3, 2, 10, 11) your output was incorrect.
-7. When the input was (100, 101, 102, 101) your output was incorrect.
-8. When the input was (3, 2, 1, 0, -1, -2, 10) your output was incorrect.
-
-'''
+print ChangingSequence(arr1)	# return 4
+print ChangingSequence(arr2)	# return 3
+print ChangingSequence(arr3)	# return 8
+print ChangingSequence(arr4)	# return 1
