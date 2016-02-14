@@ -1,3 +1,30 @@
+'''
+Have the function WeightedPath(arr) take strArr which will be an array of 
+strings which models a non-looping weighted Graph. The structure of the array 
+will be as follows: The first element in the array will be the number of 
+nodes N (points) in the array as a string. The next N elements will be the 
+nodes which can be anything (A, B, C .. Brick Street, Main Street .. etc.). 
+Then after the Nth element, the rest of the elements in the array will be the 
+connections between all of the nodes along with their weights (integers) 
+separated by the pipe symbol (|). They will look like this: (A|B|3, B|C|12 .. 
+Brick Street|Main Street|14 .. etc.). Although, there may exist no connections 
+at all.
+
+An example of strArr may be: 
+["4","A","B","C","D","A|B|1","B|D|9","B|C|3","C|D|4"]. 
+It may help to visualize the Graph by drawing out the nodes and their 
+connections. Your program should return the shortest path when the weights are 
+added up from node to node from the first Node to the last Node in the array 
+separated by dashes. So in the example above the output should be A-B-C-D. 
+Here is another example with strArr being 
+["7","A","B","C","D","E","F","G","A|B|1","A|E|9","B|C|2","C|D|1","D|F|2",
+"E|D|6","F|G|2"]. The output for this array should be A-B-C-D-F-G. 
+There will only ever be one shortest path for the array. 
+If no path between the first and last node exists, return -1. 
+The array will at minimum have two nodes. Also, the connection A-B for example, 
+means that A can get to B and B can get to A. A path may not go through any 
+Node more than once.
+'''
 import operator
 
 def WeightedPath(arr):
@@ -68,6 +95,5 @@ arr6 = ["7","D","A","N","I","E","L","B","D|A|1","A|N|2","L|B|22"]
 arr = ["4","A","B","C","D", "A|B|2", "C|B|11", "C|D|3", "B|D|2"]
 arr3 = ["7","A","B","C","D","E","F","G","A|B|1","A|E|9","B|C|2","C|D|1","D|F|2","E|D|6","F|G|2"]
 arr4 = ["4","A","B","C","D","A|B|1","B|D|9","B|C|3","C|D|4"]
-# keep this function call here  
-# to see how to enter arguments in Python scroll down
+ 
 print WeightedPath(arr)  		
