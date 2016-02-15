@@ -46,7 +46,6 @@ public class BackgroundChangerFrame extends JFrame {
 			e.printStackTrace();
 		}
 		fillFrame();
-
 		frame.setVisible(true);
 	}
 
@@ -112,7 +111,6 @@ public class BackgroundChangerFrame extends JFrame {
 				}
 			}
 		}
-
 	}
 
 	public synchronized void initializeFiles() throws IOException {
@@ -161,9 +159,7 @@ public class BackgroundChangerFrame extends JFrame {
 		public void actionPerformed(ActionEvent e) {
 			if (backGroundNumber > 0) {
 				backGroundNumber = ((backGroundNumber - 1) % maxFiles);
-			} else {
-				backGroundNumber = maxFiles - 1;
-			}
+			} else {backGroundNumber = maxFiles - 1;}
 			setBackgroundHere(backGroundNumber);
 		}
 	};
@@ -179,7 +175,6 @@ public class BackgroundChangerFrame extends JFrame {
 				}
 			}
 		});
-
 	}
 }
 
