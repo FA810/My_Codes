@@ -1,12 +1,9 @@
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.font.TextLayout;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -26,26 +23,33 @@ public class BackgroundChangerFrame extends JFrame {
 	private JLabel change;
 	private int backGroundNumber = 5;
 	private int maxFiles = 8;
-	File file;
+	int loaded = 0;
 	BufferedImage image[];
 	TiledImage backgroundImage;
+	Loader[] loaders = new Loader[maxFiles];
+	String path = "./images/";
+	String prefix = "0";
+	String extension = ".jpg";	
 
 	BackgroundChangerFrame() throws IOException {
-
 		frame = new JFrame("Background Changer");
-		//frame.setUndecorated(true);
+		// frame.setUndecorated(true);
 		frame.setLayout(new BorderLayout());
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(400, 200);
 		frame.setLocation(50, 50);
 		initializeElements();
+		System.out.println("loaded value: "+loaded);
 		try {
 			initializeFiles();
-		} catch (IOException e) {e.printStackTrace();}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		fillFrame();
+
 		frame.setVisible(true);
 	}
-		
+
 	public void initializeElements() {
 		change = new JLabel("Change Background");
 		change.setSize(100, 40);
@@ -62,32 +66,79 @@ public class BackgroundChangerFrame extends JFrame {
 		frame.add(buttonLeft);
 		frame.add(buttonRight);
 	}
+	
+	public synchronized int getLoaded(){
+		return this.loaded;
+	}
+	
+	public synchronized void setLoaded(){
+		this.loaded = this.loaded + 1;
+		System.out.println(" - currently loaded: "+getLoaded() );
+		notify();
+	}
 
-	public void initializeFiles() throws IOException {
+	class Loader extends Thread {
+		int index;
+
+		Loader(int index) {
+			this.index = index;
+		}
+
+		public void run() {
+			File file = new File(path+prefix+index+extension);
+			try {				
+					System.out.println("reading "+index);
+					image[index] = ImageIO.read(file);
+					System.out.print("notifying "+index);
+					setLoaded();
+									
+			} catch (IOException e) {e.printStackTrace();}
+		}
+	}
+	
+	class TiledImage extends JPanel {
+		BufferedImage tileImage;
+
+		public TiledImage(BufferedImage image) {
+			tileImage = image;
+		}
+
+		protected void paintComponent(Graphics g) {
+			int width = getWidth();
+			int height = getHeight();
+			for (int x = 0; x < width; x += tileImage.getWidth()) {
+				for (int y = 0; y < height; y += tileImage.getHeight()) {
+					g.drawImage(tileImage, x, y, this);
+				}
+			}
+		}
+
+	}
+
+	public synchronized void initializeFiles() throws IOException {
 		System.out.println("initialization...");
 		image = new BufferedImage[maxFiles];
 		long start = System.currentTimeMillis();
 		for (int i = 0; i < maxFiles; i++) {
-			new Thread(i + "") {
-				public void run() {
-					file = new File("./images/0" + this.getName() + ".jpg");
-					// file = new File("0" + i + ".jpg");
-					try {
-						image[Integer.valueOf(this.getName())] = ImageIO.read(file);
-						// image[i] = ImageIO.read(file);
-					} catch (IOException e) {
-						e.printStackTrace();
-					}
-				}
-			}.run();
+			synchronized(this){
+				loaders[i] = new Loader(i);
+				loaders[i].start();
+			}
+			
 		}
+		while(getLoaded() < maxFiles) {
+	        try {
+	        	System.out.println("wait..."+getLoaded());
+	            this.wait();
+	        } catch (InterruptedException e) {}
+	    }		
 		long stop = System.currentTimeMillis();
 		System.out.println("... done in " + (stop - start) + " milliseconds");
 		setBackgroundHere(backGroundNumber);
 	}
 
 	public void setBackgroundHere(int i) {
-		System.out.println("changing background...");
+		System.out.println("changing background... "+i);
 		backgroundImage = new TiledImage(image[i]);
 		if (i == 5) {
 			change.setForeground(Color.WHITE);
@@ -123,7 +174,6 @@ public class BackgroundChangerFrame extends JFrame {
 				try {
 					BackgroundChangerFrame bcf = new BackgroundChangerFrame();
 					bcf.fillFrame();
-					//bcf.setLocation(200, 20);
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
@@ -131,24 +181,5 @@ public class BackgroundChangerFrame extends JFrame {
 		});
 
 	}
-
-	public class TiledImage extends JPanel {
-		BufferedImage tileImage;
-
-		public TiledImage(BufferedImage image) {
-			tileImage = image;
-		}
-
-		protected void paintComponent(Graphics g) {
-			int width = getWidth();
-			int height = getHeight();
-			for (int x = 0; x < width; x += tileImage.getWidth()) {
-				for (int y = 0; y < height; y += tileImage.getHeight()) {
-					g.drawImage(tileImage, x, y, this);
-				}
-			}
-		}
-
-	}
-
 }
+
