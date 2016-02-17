@@ -25,8 +25,7 @@ def LookSaySequence(num):
 			tmp = find_sequence(sen[i:])
 			res = res + str(tmp) + sen[i]
 			i = i + tmp
-	return res
-    
+	return res    
 
 num = 2466   
 print LookSaySequence(num)  
