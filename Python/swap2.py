@@ -56,8 +56,6 @@ arr = "6Hello4 -8World, 7 yes3"   	#"4hELLO6 -8wORLD, 7 YES3"
 arr2 = "2S 6 du5d4e"				#"2s 6 DU4D5E"
 arr3 = "Hello -5LOL6"				#"hELLO -6lol5"
 arr4 = "6coderbyte5"  
-# keep this function call here  
-# to see how to enter arguments in Python scroll down
 print SwapII(arr4)  
 #print swap_digits("-3ord4")
 

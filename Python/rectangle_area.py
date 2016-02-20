@@ -26,5 +26,4 @@ def RectangleArea(arr):
 	return (MaxX-MinX)*(MaxY-MinY)
     
 arr = ["(1 1)","(1 3)","(3 1)","(3 3)"]
-# keep this function call here  
 print RectangleArea(arr)
