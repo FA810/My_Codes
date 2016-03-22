@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="store">
+<head>
+	<title>AngularJS Example</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+</head>
+<body ng-controller="StoreController as store">
+<div class="container">	
+	<div ng-repeat="product in store.product" >
+		<img ng-src="{{product.images[0].full}}" class="pull-right"/>
+		<h3> Product Name: {{product.name}} </h3>		
+		<h4> Origin: {{product.origin}} - Hits per day: {{product.hits}}</h4>
+		<p> {{product.description}} </p>
+		<button class="btn btn-success" ng-show="product.canPurchase"> Add to Cart </button>
+	</div>
+	<br>
+	<hr>
+	<p>Just a simple sum: <code ng-non-bindable>{{4 + 6}}</code> {{4 + 6}}</p>
+	<p>Just a simple string join: <code ng-non-bindable>{{"hello" + " you"}}</code> {{"hello" + " you"}}</p>
+	<h3> Filters </h3>
+	<p>Date formatting: <code ng-non-bindable>{{'1388123412323' | date:'MM/dd/yyyy @ h:mma'}}</code> {{'1388123412323' | date:'MM/dd/yyyy @ h:mma'}}</p>
+	<p>Uppercase of string: <code ng-non-bindable>{{'Ubuntu is a complete desktop Linux operating system' | uppercase}}</code> {{'Ubuntu is a complete desktop Linux operating system' | uppercase}}</p>
+	<p>String truncate: <code ng-non-bindable>{{'Ubuntu is a complete desktop Linux operating system' | limitTo:42}}</code> {{'Ubuntu is a complete desktop Linux operating system' | limitTo:42}}</p>
+	<p>Currency formatting: <code ng-non-bindable>{{1245 | currency }}</code> {{1245 | currency }}</p>
+		
+	
+</div>	
+<script type="text/javascript" src="angular.js"></script>
+<script type="text/javascript" src="app1.js"></script>
+
+</body>
+</html>
