@@ -3,18 +3,55 @@
 <head>
 	<title>AngularJS Example</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+	<style>
+	.padded{padding: 5px 15px 5px 15px;}
+	</style>
 </head>
 <body ng-controller="StoreController as store">
 <div class="container">	
-	<div ng-repeat="product in store.product" >
-		<img ng-src="{{product.images[0].full}}" class="pull-right"/>
-		<h3> Product Name: {{product.name}} </h3>		
+	<h3>Products List</h3>
+	<div ng-repeat="product in store.product" class="panel panel-info">		
+		<div class="panel-heading">Product Name: {{product.name}}</div>
+		<div class="padded">
+		<img ng-src="{{product.images[0].full}}" class="pull-right padded"/>
 		<h4> Origin: {{product.origin}} - Hits per day: {{product.hits}}</h4>
-		<p> {{product.description}} </p>
-		<button class="btn btn-success" ng-show="product.canPurchase"> Add to Cart </button>
+		<p> {{product.description}} </p>		
+		<button class="btn btn-info" ng-show="product.canPurchase">Add to Cart</button>
+		</div>
 	</div>
 	<br>
 	<hr>
+	
+	<h3>Tabs</h3>
+	<section ng-controller="PanelController as panel" class="panel panel-default padded">
+		<ul class="nav nav-pills" >
+			<li ng-class="{ active:panel.isSelected(1) }"> <a href ng-click="panel.selectTab(1)">Info</a> </li>
+			<li ng-class="{ active:panel.isSelected(2) }"> <a href ng-click="panel.selectTab(2)">Specifications</a> </li>
+			<li ng-class="{ active:panel.isSelected(3) }"> <a href ng-click="panel.selectTab(3)">Description</a> </li>
+		</ul>
+		{{tab}}
+		<div class="panel" ng-show="panel.isSelected(1)">
+			<blockquote>
+				<img ng-src="{{store.product[0].images[0].full}}" class="pull-right padded"/>
+				<p>Name: {{store.product[0].name}}</p>
+				<p>Origin: {{store.product[0].origin}}</p>
+				<p>Hits: {{store.product[0].hits}}</p>
+			</blockquote>
+		</div>
+		<div class="panel" ng-show="panel.isSelected(2)">
+			<blockquote>
+				<img ng-src="{{store.product[0].images[0].full}}" class="pull-right padded"/>
+				<p>Architecture: {{store.product[0].architecture}}</p>
+				<p>Desktop: {{store.product[0].desktop}}</p>
+				<p>Category: {{store.product[0].category}}</p>
+			</blockquote>
+		</div>
+		<div class="panel" ng-show="panel.isSelected(3)">
+			<blockquote>{{store.product[0].description}}</blockquote>
+		</div>
+		
+	</section>	
+	
 	<p>Just a simple sum: <code ng-non-bindable>{{4 + 6}}</code> {{4 + 6}}</p>
 	<p>Just a simple string join: <code ng-non-bindable>{{"hello" + " you"}}</code> {{"hello" + " you"}}</p>
 	<h3> Filters </h3>

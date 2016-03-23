@@ -33,6 +33,9 @@
 					thumb: './logos/mint.png'
 				}
 			],	
+			architecture: "i386, x86_64",
+			desktop: "Cinnamon, GNOME, KDE, MATE, Xfce",
+			category: "Beginners, Desktop, Live Medium",
 			canPurchase: true,
 		},
 		{
@@ -50,6 +53,9 @@
 					thumb: './logos/ubuntu.png'
 				}
 			],
+			architecture: "i386, x86_64",
+			desktop: "Cinnamon, GNOME, KDE, MATE, Xfce",
+			category: "Beginners, Desktop, Live Medium",
 			canPurchase: true,
 		},
 		{
@@ -67,6 +73,9 @@
 					thumb: './logos/fedora.png'
 				}
 			],
+			architecture: "i386, x86_64",
+			desktop: "Cinnamon, GNOME, KDE, MATE, Xfce",
+			category: "Beginners, Desktop, Live Medium",
 			canPurchase: true,
 		}
 	];
