@@ -2,23 +2,53 @@
 <html ng-app="store">
 <head>
 	<title>AngularJS Example</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="./dist/css/bootstrap.min.css" />
 	<style>
-	.padded{padding: 5px 15px 5px 15px;}
+	.padded{padding: 8px 15px 8px 15px;}
+	.sidebar-outer {
+    	position: relative;
+	}
+	@media (min-width: 28px) {
+	    .sidebar {
+	        position: fixed;
+	    }
+	}
 	</style>
 </head>
 <body ng-controller="StoreController as store">
 <div class="container">	
-	<h3>Products List</h3>
-	<div ng-repeat="product in store.product" class="panel panel-info">		
-		<div class="panel-heading">Product Name: {{product.name}}</div>
-		<div class="padded">
-		<img ng-src="{{product.images[0].full}}" class="pull-right padded"/>
-		<h4> Origin: {{product.origin}} - Hits per day: {{product.hits}}</h4>
-		<p> {{product.description}} </p>		
-		<button class="btn btn-info" ng-show="product.canPurchase">Add to Cart</button>
+	<div class="row" ng-controller="CartController as cart">
+		<div class="col-md-9">
+			<h3>Products List</h3>
+			<div ng-repeat="product in store.product" class="panel panel-info">		
+				<div class="panel-heading">Product Name: {{product.name}}</div>
+				<div class="padded">
+					<img ng-src="{{product.images[0].full}}" class="pull-right padded img-responsive" style="max-width:30%;"/>
+					<h4> Origin: {{product.origin}} - Hits per day: {{product.hits}}</h4>
+					<p> {{product.description}} </p>		
+					<button class="btn btn-info" ng-show="product.canPurchase" ng-click="addElement({'text':product.name})">Add to Cart</button>
+				</div>
+			</div>			
+		</div>
+		<div class="col-md-3 sidebar-outer" >
+			<br>			
+			<div class="panel panel-info sidebar">
+			<div class="panel-heading">Cart  </div>
+			<div class="padded">
+				<p >You got {{getTotal()}} item(s) in your cart.	</p>
+          		<p ng-repeat="item in cart">
+        			<button type="button" class="btn btn-default btn-sm"  ng-click="removeElement({'text':item.text})">
+          				<span class="glyphicon glyphicon-remove " ></span>   {{item.text}} ({{item.quantity}})
+        			</button>
+      			</p>
+          		<button class="btn btn-info " ng-click="removeAll()">Clear</button>
+			</div>
+			</div>
 		</div>
 	</div>
+
+	
 	<br>
 	<hr>
 	

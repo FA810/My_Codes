@@ -17,6 +17,48 @@
 		};
 	});
 	
+	app.controller("CartController", function($scope){
+		$scope.cart = [
+			{text: 'Fedora', quantity:1},      
+    		{text: 'Arch Linux', quantity:2}
+		]; 
+		
+		$scope.getTotal= function () {
+			var total = 0;
+			for (var i = $scope.cart.length - 1; i > -1; i--) {
+				total += $scope.cart[i].quantity;
+			}		
+    		return total;
+  		};
+  		
+  		$scope.addElement= function (element) {
+  			var found = false;
+  			for (var i = $scope.cart.length - 1; i > -1; i--) {
+				if ($scope.cart[i].text === element.text){
+					$scope.cart[i].quantity += 1;
+					found = true;
+					return;
+				}	
+			};
+			if (found == false){
+				$scope.cart.push({text:element.text, quantity:1});
+			}	  			
+  		};
+  		
+  		$scope.removeElement= function (element) {
+  			console.log(element);
+  			for (var i = $scope.cart.length - 1; i > -1; i--) {
+				if ($scope.cart[i].text == element.text){
+					return $scope.cart.splice(i,1);					
+				}	
+			};		
+  		};
+  		
+  		$scope.removeAll= function () {
+			$scope.cart = [];
+  		};
+	});
+	
 	var products = [
  		{
 			name: "Linux Mint",
@@ -56,6 +98,26 @@
 			architecture: "i386, x86_64",
 			desktop: "Cinnamon, GNOME, KDE, MATE, Xfce",
 			category: "Beginners, Desktop, Live Medium",
+			canPurchase: true,
+		},
+		{
+			name: "OpenSUSE",
+			origin: "Germany",
+			hits: 1495,
+			description: "The openSUSE project is a community program sponsored by SUSE Linux and other companies. Promoting the use of Linux everywhere, this program provides free, easy access to openSUSE, a complete Linux distribution. The openSUSE project has three main goals: make openSUSE the easiest Linux for anyone to obtain and the most widely used Linux distribution; leverage open source collaboration to make openSUSE the world's most usable Linux distribution and desktop environment for new and experienced Linux users; dramatically simplify and open the development and packaging processes to make openSUSE the platform of choice for Linux developers and software vendors. ",
+			images: [
+				{
+					full: './logos/opensuse.png',
+					thumb: './logos/opensuse.jpg'
+				},
+				{
+					full: './logos/opensuse.jpg',
+					thumb: './logos/opensuse.png'
+				}
+			],
+			architecture: "armhf, i586, x86_64",
+			desktop: "Cinnamon, GNOME, IceWM, KDE, LXDE, Openbox, WMaker, Xfce",
+			category: "Desktop, Server, Live Medium, Raspberry Pi",
 			canPurchase: true,
 		},
 		{
