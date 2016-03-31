@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-public abstract class GruppoCarte {
+public class GruppoCarte {
 	
 	private List<Carta> carte;	
 	
@@ -138,6 +138,16 @@ public abstract class GruppoCarte {
 		this.carte.add(carta);
 	}
 	
+	public void addCard(Carta.Seme seme, int valore){
+		this.carte.add(new Carta(seme,valore));
+	}
+	
+	public void removeCards(List<Carta> carte){
+		for(Carta carta: carte){
+			removeCard(carta.getValore(), carta.getSeme());
+		}		
+	}
+	
 	public void removeCard(Carta carta){
 		removeCard(carta.getValore(), carta.getSeme());
 	}
@@ -168,8 +178,17 @@ public abstract class GruppoCarte {
 		return null;
 	}
 	
+	public Carta isCartaContained(Carta.Seme seme, int valore){
+		this.sortByValore();
+		for(Carta tempCarta: carte){
+			if((tempCarta.getValore() == valore) && (tempCarta.getSeme() == seme))
+				return tempCarta;
+		}
+		return null;
+	}
+	
 	public void addCards(List<Carta> carte){
-		carte.addAll(carte);
+		this.carte.addAll(carte);
 	}
 		
 	public int findPrimiera(){
@@ -191,8 +210,6 @@ public abstract class GruppoCarte {
 			return mazze+coppe+spade+denari+100;
 		}		
 		else return mazze+coppe+spade+denari;
-	}
-	
-	
+	}	
 
 }

@@ -28,6 +28,6 @@ public class Primiera {
 	public static void main(String[] args) {
 		System.out.println(valoriPrimiera.keySet());
 		System.out.println(valoriPrimiera);
-		System.out.println(getPrimieraValue(50));
+		System.out.println(getPrimieraValue(5));
 	}
 }

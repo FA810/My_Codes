@@ -24,7 +24,7 @@ public class Valutatore {
 		this.denari = 0;
 		this.napoli = 0;
 		this.valutaDenariSetteRe();
-		this.printValutazione();
+		//this.printValutazione();
 	}
 	
 	public int valutaCarta(int valore, Carta.Seme seme){
@@ -81,8 +81,7 @@ public class Valutatore {
 		System.out.println("Primiera:\t"+this.primiera);
 		System.out.println("Settebello:\t"+this.setteBello);
 		System.out.println("Rebello:\t"+this.reBello);
-		System.out.println("Napoli:\t\t"+this.napoli);
-		
+		System.out.println("Napoli:\t\t"+this.napoli);		
 	}
 	
 	
