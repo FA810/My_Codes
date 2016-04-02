@@ -26,6 +26,8 @@ public class TestMazzo {
 		Assert.assertEquals(1, mazzo.getSize());
 		mazzo.addCard(Seme.DENARI,8);
 		Assert.assertEquals(2, mazzo.getSize());
+		mazzo.addCard(Seme.DENARI,7);
+		Assert.assertEquals(3, mazzo.getSize());
 	}
 	
 	@Test

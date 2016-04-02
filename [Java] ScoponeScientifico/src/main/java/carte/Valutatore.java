@@ -10,21 +10,32 @@ public class Valutatore {
 	private int setteBello;
 	private int reBello;
 	private int primiera;
+	private int primieraWin;
 	private int carte;
 	private int denari;
 	private int napoli;
+	private int scope;
 	GruppoCarte gruppoCarte;
+	
+	public Valutatore(GiocatoreScopone giocatore) {
+		this(giocatore.getCartePrese());
+	}
 	
 	public Valutatore(GruppoCarte gruppoCarte) {
 		this.gruppoCarte = gruppoCarte;
 		this.setteBello = 0;
 		this.reBello = 0;
-		this.primiera = gruppoCarte.findPrimiera();
-		this.carte = gruppoCarte.getSize();
 		this.denari = 0;
 		this.napoli = 0;
+		this.scope = gruppoCarte.getScope().size();
+		this.carte = gruppoCarte.getSize();		
+		this.findPrimieraVincente();
 		this.valutaDenariSetteRe();
-		//this.printValutazione();
+		this.printValutazione();
+	}
+	
+	public int totalizza(){
+		return this.setteBello + this.reBello + this.denari/6 + this.primieraWin + this.scope + this.carte/21 + this.napoli;
 	}
 	
 	public int valutaCarta(int valore, Carta.Seme seme){
@@ -74,11 +85,21 @@ public class Valutatore {
 		}
 	}
 	
+	public void findPrimieraVincente(){
+		this.primiera = gruppoCarte.findPrimiera();
+		Mazzo tempMazzo = new Mazzo();
+		tempMazzo.removeCards(gruppoCarte.getCarte());
+		if(tempMazzo.findPrimiera() >= this.primiera)
+			primieraWin = 0;
+		else primieraWin = 1;
+	}
+	
 	public void printValutazione(){
 		System.out.println("*** Valori");
-		System.out.println("Carte:\t\t"+this.carte);
-		System.out.println("Denari:\t\t"+this.denari);
-		System.out.println("Primiera:\t"+this.primiera);
+		System.out.println("Carte:\t\t"+this.carte/21+" ("+this.carte+")");
+		System.out.println("Denari:\t\t"+this.denari/6+" ("+this.denari+")");
+		System.out.println("Scope:\t\t"+this.scope);
+		System.out.println("Primiera Win:\t"+this.primieraWin+" ("+this.primiera+")");		
 		System.out.println("Settebello:\t"+this.setteBello);
 		System.out.println("Rebello:\t"+this.reBello);
 		System.out.println("Napoli:\t\t"+this.napoli);		

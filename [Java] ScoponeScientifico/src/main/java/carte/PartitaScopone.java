@@ -12,8 +12,9 @@ public class PartitaScopone {
 	static Tavolo tavolo = new Tavolo();
 	static List<ManoScopone> mani = new ArrayList<ManoScopone>();
 	static List<GiocatoreScopone> giocatori = new ArrayList<GiocatoreScopone>();
-	static GiocatoreScopone lastGiocatoreTaking;
+	static GiocatoreScopone lastCapturingPlayer;
 	static int numGiocatori = 4;
+	static Squadra[] teams = new Squadra[2];
 
 	private static int randomNumber(int min, int max) {
 		int randomNum = rand.nextInt(max - min) + min;
@@ -38,10 +39,10 @@ public class PartitaScopone {
 	private static void printScopeGiocatori() {
 		System.out.println("\n--------Scope Giocatore ");
 		for (GiocatoreScopone temp : giocatori) {
-			System.out.print("\nGiocatore " + temp.getName() + " : " + temp.getScope());
+			System.out.println("Giocatore " + temp.getName() + " : " + temp.getScope());
 		}
 	}
-	
+
 	private static void printTavolo() {
 		System.out.println("\n--------Tavolo ");
 		tavolo.printSemePerRiga();
@@ -49,23 +50,14 @@ public class PartitaScopone {
 
 	public static void main(String[] args) {
 		Mazzo mazzo = new Mazzo();
-		mazzo.mischia();
-		//mazzo.sortByValore();
+		//mazzo.mischia();
+		mazzo.sortByValore();
 		// mazzo.printCarte();
-		System.out.println("mazzo da " + mazzo.getSize() + " mischiato ");
+		System.out.println("mazzo mischiato da " + mazzo.getSize());
 
-		// mazzo.removeCard(7, Seme.DENARI);
-		// mazzo.removeCardAt(2);
-		// mazzo.removeCardAt(0);
-		// mazzo.removeCardAt(5);
-		/*
-		 * for (int i = 18; i < 26; i++) { mazzo.removeCardAt(i-5); }
-		 * mazzo.addCard(new Carta(Seme.DENARI,4)); //mazzo.addCard(new
-		 * Carta(Seme.DENARI,5)); mazzo.addCard(new Carta(Seme.DENARI,6));
-		 * //mazzo.addCard(new Carta(Seme.DENARI,7));
-		 */
+
 		// mazzo.printValorePerRiga();//.printPrimieraPerRiga();
-		Valutatore v = new Valutatore(mazzo);
+		Valutatore v= new Valutatore(mazzo);
 		// if (mazzo.getSize() <= 50) return;
 
 		List<ManoScopone> mani = new ArrayList<ManoScopone>();
@@ -77,15 +69,16 @@ public class PartitaScopone {
 			giocatore.setName("Player" + (i + 1));
 			giocatori.add(giocatore);
 			mani.add(mano);
+			
 		}
-		lastGiocatoreTaking = giocatori.get(0);
+		lastCapturingPlayer = giocatori.get(0);
 		/* distribuzione carte ai giocatori */
 		for (int i = 0; i < mazzo.numeroCarte; i++) {
 			Carta c = mazzo.getCarte().get(i);
 			giocatori.get(i % numGiocatori).getMano().addCard(c);
 		}
 		/* stampa carte di ogni giocatore ordinate */
-		printManiGiocatori();
+		//printManiGiocatori();
 
 		int turno;
 		GiocatoreScopone giocatoreTemp;
@@ -99,22 +92,24 @@ public class PartitaScopone {
 			giocatoreTemp = giocatori.get(turno);
 			manoTemp = giocatoreTemp.getMano();
 			// quale carta giocare?
-			cartaTemp = manoTemp.removeCardAt(0);// manoTemp.removeCardAt(randomNumber(0,
-													// manoTemp.getSize()));//
+			cartaTemp = manoTemp.removeCardAt(0);//manoTemp.removeCardAt(randomNumber(0,manoTemp.getSize()));//  
 			System.out.println(giocatoreTemp.getName() + " butta " + cartaTemp);
 
 			// controlla se effettua presa oppure aggiunge soltanto al tavolo
 			if (giocatoreTemp.giocaCarta(tavolo, cartaTemp).size() > 0) {
-				lastGiocatoreTaking = giocatoreTemp;
-				if (tavolo.getCarte().size() == 0) {
-					if (turno != numGiocatori - 1) {
-						System.out.print(" --- scopa!  ");
-						giocatoreTemp.setScope(cartaTemp);
+				lastCapturingPlayer = giocatoreTemp;
+				if ((tavolo.getCarte().size() == 0) ) {
+					if ((turno != numGiocatori - 1) || (manoTemp.getSize() > 0)){
+						if(((cartaTemp.getValore() == 1) && !(Settings.ASSO_PIGLIA_TUTTO))||(cartaTemp.getValore() != 1)){
+							System.out.print(" --- scopa!  ");
+							giocatoreTemp.setScope(cartaTemp);
+						}											
 					} 
-					else if (manoTemp.getSize() > 0) {
+					/*else if (manoTemp.getSize() > 0) {
 						System.out.print(" --- scopa!  ");
 						giocatoreTemp.setScope(cartaTemp);
-					}
+					}*/
+					//if(((cartaTemp.getValore() == 1) && !(Settings.ASSO_PIGLIA_TUTTO))||(cartaTemp.getValore() != 1)){}
 				}
 				System.out.println(" --- e prende  ");
 			}
@@ -130,14 +125,24 @@ public class PartitaScopone {
 		if (tavolo.getCarte().size() > 0) {
 			// all'ultimo che prende, dai le carte rimaste sul tavolo
 			List<Carta> restanti = tavolo.getCarte();
-			lastGiocatoreTaking.addCartePrese(restanti);
+			lastCapturingPlayer.addCartePrese(restanti);
 			tavolo = new Tavolo();
 		}
-		System.out.println("Last taking: " + lastGiocatoreTaking.getName());
+		System.out.println("Last taking: " + lastCapturingPlayer.getName());
 		// tavolo.printSemePerRiga();
 		/* stampa carte di ogni giocatore ordinate */
 		printPreseGiocatori();
 		printScopeGiocatori();
+		
+		for(int y = 0; y<2; y++){
+			teams[y] = new Squadra();
+			teams[y].addGiocatore(giocatori.get(y));
+			teams[y].addGiocatore(giocatori.get(y+2));
+			teams[y].printCards();
+			v = new Valutatore(teams[y].getCartePrese());
+			System.out.println("totale: "+v.totalizza());
+		}
+
 
 	}
 

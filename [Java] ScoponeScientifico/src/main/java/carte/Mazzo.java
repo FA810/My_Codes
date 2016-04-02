@@ -8,14 +8,13 @@ public class Mazzo extends GruppoCarte{
 	
 	int numeroCarte = 40;
 	int cartePerSeme = 10;
-	//private List<Carta> carte;	
 
 	static Random rand = new Random();
 		
 	public Mazzo(int numeroCarte) {
 		this.numeroCarte = numeroCarte;
 		for(int i=0; i<numeroCarte;i++){
-			super.getCarte().add(new Carta(Carta.Seme.values()[(i/cartePerSeme)%Carta.Seme.values().length], (i%cartePerSeme)+1));
+			this.getCarte().add(new Carta(Carta.Seme.values()[(i/cartePerSeme)%Carta.Seme.values().length], (i%cartePerSeme)+1));
 		}
 	}
 	
@@ -34,7 +33,7 @@ public class Mazzo extends GruppoCarte{
 	}
 	
 	public void scambia(int i, int j){
-		Collections.swap(super.getCarte(), i, j);
+		Collections.swap(this.getCarte(), i, j);
 	}
 	
 	private static int randInt(int min, int max) {

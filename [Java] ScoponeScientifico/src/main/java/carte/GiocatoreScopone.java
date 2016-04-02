@@ -9,14 +9,13 @@ public class GiocatoreScopone {
 	ManoScopone mano;
 	CartePrese cartePrese = new CartePrese();
 	CardsCalculator calculator;
-	List<Carta> scope = new ArrayList<Carta>();
 
 	public List<Carta> getScope() {
-		return scope;
+		return this.cartePrese.getScope();
 	}
 
 	public void setScope(Carta scopa) {
-		this.scope.add(scopa);
+		this.cartePrese.setScope(scopa);
 	}
 
 	public String getName() {
@@ -28,7 +27,7 @@ public class GiocatoreScopone {
 	}
 
 	public CartePrese getCartePrese() {
-		return cartePrese;
+		return this.cartePrese;
 	}
 
 	public void setCartePrese(CartePrese cartePrese) {
@@ -73,6 +72,14 @@ public class GiocatoreScopone {
 		List<Carta> cartaFound;
 		List<Carta> result = new ArrayList<Carta>();
 		calculator = new CardsCalculator(tavolo);
+		if((miaCarta.getValore() == 1) && (Settings.ASSO_PIGLIA_TUTTO)){
+			prendiCarta(miaCarta);
+			List<Carta> temp = tavolo.getCarte();
+			prendiCarte(temp);
+			tavolo.removeAllCards();
+			result.addAll(temp);			
+			return result;
+		}
 		// controlla se effettua presa oppure aggiunge soltanto al tavolo
 		cartaFound = calculator.checkSameCards(miaCarta,tavolo);
 		if (cartaFound.size() > 0) {
@@ -89,10 +96,9 @@ public class GiocatoreScopone {
 				prendiCarte(opzioni.get(0));
 				tavolo.removeCards(opzioni.get(0));
 				result.addAll(opzioni.get(0));
-			} else {
+			} else{
 				// non sto prendendo nulla
 				tavolo.addCard(miaCarta);
-				
 			}			
 		}
 		return result;
