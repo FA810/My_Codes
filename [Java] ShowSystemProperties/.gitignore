@@ -1,5 +1,5 @@
 bin/
 bin/*
-.gitgnore
+.gitignore
 .project
 .classpath
