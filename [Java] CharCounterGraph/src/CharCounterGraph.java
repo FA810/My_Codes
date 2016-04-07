@@ -1,10 +1,10 @@
-package com.various.tests;
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 /**
 Given a text, count characters occurrencies and print a bar graph on screen
