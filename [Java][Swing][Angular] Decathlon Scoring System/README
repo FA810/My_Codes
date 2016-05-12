@@ -1,0 +1,61 @@
+GUIDE
+
+REQUIREMENTS
+You need Maven 3 and Java 1.7.
+
+---------------------
+Q: SHOW ME EVERYTHING QUICKLY:
+A: 
+
+command:
+> ./run.sh
+
+
+------------------------------------------
+Q: I want to check if your measures and scores are right:
+A: Use the Calculator GUI I have made with Swing,
+
+command:
+> mvn exec:java -Dexec.mainClass="calculator.gui.DecathlonFrame"
+
+(just a demo, basic validation implemented)
+
+
+------------------------------------------
+Q: I want to clean everything, compile and run tests:
+A: 
+
+commands:
+> mvn clean
+> mvn compile
+> mvn test
+
+
+------------------------------------------
+Q: I want to generate some random partecipants and collect them in a file.
+A: Use generator.FakeAthleteGenerator. Please spare your CPU(s) by not trying very high numbers.
+AngularJS and other stuff will "punish" you for this. :/
+
+commands:
+> mvn exec:java -Dexec.mainClass="generator.FakeAthleteGenerator" -Dexec.args="100"
+
+this generates 100 partecipants, or else you can leave the dafeult number in settings.Settings:
+
+> mvn exec:java -Dexec.mainClass="generator.FakeAthleteGenerator"
+
+
+------------------------------------------
+Q: I want to start the application giving a file of my choice in input.
+A: Use this command:
+
+> mvn exec:java -Dexec.mainClass="main.Application" -Dexec.args="</path/to/your/file>"
+
+or else it will use default file in the same directory
+
+> mvn exec:java -Dexec.mainClass="main.Application"
+
+
+------------------------------------------
+
+-Fabio Rizzello
+fabio.rizzello@tiscali.it

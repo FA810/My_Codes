@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app="ranking">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="angular/bootstrap.min.css">
+    <script src="angular/jquery.min.js"></script>
+    <script src="angular/bootstrap.min.js"></script>
+    <script type="text/javascript" src="angular/angular.js"></script>
+    <script type="text/javascript" src="angular/app1.js"></script>
+  </head>
+  <body ng-controller="RankingController as ranking" >
+    <div class="container" >
+      <h2>Decathlon Ranking</h2>
+      <p>Click on the name to read more details.</p>
+      <div class="panel-group" id="accordion">
+        <div ng-repeat="athlete in ranking.athlete" class="panel panel-default" >
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{$index}}">
+                <div class="row">                	
+                  <div class="col-md-1"><img ng-src="http://www.gravatar.com/avatar/{{ athlete.TotalScore }}?s=16&d=identicon" alt=""></img></div>
+                  <div class="col-md-4"> {{ $index + 1}}. {{ athlete.athlete.name }}</div>
+                  <div class="col-md-4"> SCORE: {{ athlete.TotalScore }} </div>
+                </div>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse{{$index}}" class="panel-collapse collapse">
+            <div class="panel-body">
+              <table class="table table-condensed">
+                <tbody>
+                  <tr>
+                    <th>100m seconds: {{ athlete.athlete.m100Seconds }}</th>
+                    <th>100m score: {{ athlete.m100Score }}</th>
+                    <th>Long Jump cm: {{ athlete.athlete.longJumpCentimeters }}</th>
+                    <th>Long Jump score: {{ athlete.longJumpScore }}</th>
+                  </tr>
+                  <tr>
+                    <th>Shot Put m: {{ athlete.athlete.shotPutMeters }}</th>
+                    <th>Shot Put score: {{ athlete.shotPutScore }}</th>
+                    <th>High Jump cm: {{ athlete.athlete.highJumpCentimeters }}</th>
+                    <th>High Jump score: {{ athlete.highJumpScore }}</th>
+                  </tr>
+                  <tr>
+                    <th>400m seconds: {{ athlete.athlete.m400Seconds }}</th>
+                    <th>400m score: {{ athlete.m400Score }}</th>
+                    <th>110m seconds: {{ athlete.athlete.m110HurdleSeconds }}</th>
+                    <th>110m score: {{ athlete.m110Score }}</th>
+                  </tr>
+                  <tr>
+                    <th>Discus Throw m: {{ athlete.athlete.discusThrowMeters }}</th>
+                    <th>Discus Throw score: {{ athlete.discusThrowScore }}</th>
+                    <th>Pole Vault cm: {{ athlete.athlete.poleVaultCentimeters }}</th>
+                    <th>Pole Vault score: {{ athlete.poleVaultScore }}</th>
+                  </tr>
+                  <tr>
+                    <th>Javelin Throw m: {{ athlete.athlete.javelinThrowMeters }}</th>
+                    <th>Javelin Throw score: {{ athlete.javelinThrowScore }}</th>
+                    <th>1500m seconds: {{ athlete.athlete.m1500Seconds }}</th>
+                    <th>1500m score: {{ athlete.m1500Score }}</th>
+                  </tr>
+                  <tr>
+                    <th>Day1 score: {{ athlete.Day1Score}}</th>
+                    <th>Day2 score: {{ athlete.Day2Score }}</th>
+                    <th></th>
+                    <th>
+                      <h4>Total score: {{ athlete.TotalScore}}</h4>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
