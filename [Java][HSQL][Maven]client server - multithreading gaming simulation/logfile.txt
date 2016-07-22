@@ -1,0 +1,784 @@
+# Server started at Fri Jul 22 13:42:22 CEST 2016
+ON ;coleman
+IN ;coleman;coleman;0;0
+OUT;coleman;0;0;Fri Jul 22 13:42:27 CEST 2016;0;1560
+IN ;coleman;coleman;1;-10
+OUT;coleman;1;0;Fri Jul 22 13:42:27 CEST 2016;-10;1550
+IN ;coleman;coleman;1;0
+OUT;coleman;1;22;Fri Jul 22 13:42:28 CEST 2016;0;1550
+IN ;coleman;coleman;2;3
+OUT;coleman;2;0;Fri Jul 22 13:42:28 CEST 2016;3;1553
+IN ;coleman;coleman;3;11
+OUT;coleman;3;0;Fri Jul 22 13:42:28 CEST 2016;11;1564
+IN ;coleman;coleman;4;7
+OUT;coleman;4;0;Fri Jul 22 13:42:28 CEST 2016;7;1571
+IN ;coleman;coleman;5;13
+OUT;coleman;5;0;Fri Jul 22 13:42:28 CEST 2016;13;1584
+IN ;coleman;coleman;6;12
+OUT;coleman;6;0;Fri Jul 22 13:42:29 CEST 2016;12;1596
+IN ;coleman;coleman;6;0
+OUT;coleman;6;22;Fri Jul 22 13:42:29 CEST 2016;0;1596
+IN ;coleman;coleman;7;6
+OUT;coleman;7;0;Fri Jul 22 13:42:29 CEST 2016;6;1602
+IN ;coleman;coleman;7;0
+OUT;coleman;7;22;Fri Jul 22 13:42:29 CEST 2016;0;1602
+IN ;coleman;coleman;8;-11
+OUT;coleman;8;0;Fri Jul 22 13:42:29 CEST 2016;-11;1591
+IN ;coleman;coleman;9;-1
+OUT;coleman;9;0;Fri Jul 22 13:42:29 CEST 2016;-1;1590
+IN ;coleman;coleman;10;-4
+OUT;coleman;10;0;Fri Jul 22 13:42:29 CEST 2016;-4;1586
+IN ;coleman;coleman;11;7
+OUT;coleman;11;0;Fri Jul 22 13:42:30 CEST 2016;7;1593
+IN ;coleman;coleman;12;-2
+OUT;coleman;12;0;Fri Jul 22 13:42:30 CEST 2016;-2;1591
+IN ;coleman;coleman;12;0
+OUT;coleman;12;22;Fri Jul 22 13:42:30 CEST 2016;0;1591
+IN ;coleman;coleman;13;3
+OUT;coleman;13;0;Fri Jul 22 13:42:30 CEST 2016;3;1594
+IN ;coleman;coleman;14;14
+OUT;coleman;14;0;Fri Jul 22 13:42:30 CEST 2016;14;1608
+OFF;coleman
+ON ;kyle
+IN ;kyle;kyle;0;0
+OUT;kyle;0;0;Fri Jul 22 13:42:38 CEST 2016;0;0
+IN ;kyle;kyle;1;100
+OUT;kyle;1;0;Fri Jul 22 13:42:38 CEST 2016;100;100
+IN ;kyle;kyle;1;0
+OUT;kyle;1;22;Fri Jul 22 13:42:39 CEST 2016;0;100
+IN ;kyle;kyle;2;14
+OUT;kyle;2;0;Fri Jul 22 13:42:39 CEST 2016;14;114
+IN ;kyle;kyle;3;-10
+OUT;kyle;3;0;Fri Jul 22 13:42:39 CEST 2016;-10;104
+IN ;kyle;kyle;4;6
+OUT;kyle;4;0;Fri Jul 22 13:42:39 CEST 2016;6;110
+IN ;kyle;kyle;5;-2
+OUT;kyle;5;0;Fri Jul 22 13:42:39 CEST 2016;-2;108
+IN ;kyle;kyle;6;-15
+OUT;kyle;6;0;Fri Jul 22 13:42:39 CEST 2016;-15;93
+IN ;kyle;kyle;7;13
+OUT;kyle;7;0;Fri Jul 22 13:42:40 CEST 2016;13;106
+IN ;kyle;kyle;8;-15
+OUT;kyle;8;0;Fri Jul 22 13:42:40 CEST 2016;-15;91
+IN ;kyle;kyle;9;2
+OUT;kyle;9;0;Fri Jul 22 13:42:40 CEST 2016;2;93
+IN ;kyle;kyle;10;-14
+OUT;kyle;10;0;Fri Jul 22 13:42:40 CEST 2016;-14;79
+IN ;kyle;kyle;11;-10
+OUT;kyle;11;0;Fri Jul 22 13:42:40 CEST 2016;-10;69
+IN ;kyle;kyle;12;5
+OUT;kyle;12;0;Fri Jul 22 13:42:41 CEST 2016;5;74
+IN ;kyle;kyle;13;5
+OUT;kyle;13;0;Fri Jul 22 13:42:41 CEST 2016;5;79
+IN ;kyle;kyle;14;10
+OUT;kyle;14;0;Fri Jul 22 13:42:41 CEST 2016;10;89
+OFF;kyle
+ON ;kyle
+IN ;kyle;kyle;0;0
+OUT;kyle;0;0;Fri Jul 22 13:42:43 CEST 2016;0;89
+IN ;kyle;kyle;1;1
+OUT;kyle;1;0;Fri Jul 22 13:42:43 CEST 2016;1;90
+IN ;kyle;kyle;2;-3
+OUT;kyle;2;0;Fri Jul 22 13:42:43 CEST 2016;-3;87
+IN ;kyle;kyle;3;1
+OUT;kyle;3;0;Fri Jul 22 13:42:44 CEST 2016;1;88
+IN ;kyle;kyle;4;-7
+OUT;kyle;4;0;Fri Jul 22 13:42:44 CEST 2016;-7;81
+IN ;kyle;kyle;5;14
+OUT;kyle;5;0;Fri Jul 22 13:42:44 CEST 2016;14;95
+IN ;kyle;kyle;6;2
+OUT;kyle;6;0;Fri Jul 22 13:42:44 CEST 2016;2;97
+IN ;kyle;kyle;7;-13
+OUT;kyle;7;0;Fri Jul 22 13:42:45 CEST 2016;-13;84
+IN ;kyle;kyle;8;-14
+OUT;kyle;8;0;Fri Jul 22 13:42:45 CEST 2016;-14;70
+IN ;kyle;kyle;9;2
+OUT;kyle;9;0;Fri Jul 22 13:42:45 CEST 2016;2;72
+IN ;kyle;kyle;10;-5
+OUT;kyle;10;0;Fri Jul 22 13:42:45 CEST 2016;-5;67
+IN ;kyle;kyle;11;-15
+OUT;kyle;11;0;Fri Jul 22 13:42:46 CEST 2016;-15;52
+IN ;kyle;kyle;12;14
+OUT;kyle;12;0;Fri Jul 22 13:42:46 CEST 2016;14;66
+IN ;kyle;kyle;13;3
+OUT;kyle;13;0;Fri Jul 22 13:42:46 CEST 2016;3;69
+IN ;kyle;kyle;14;-13
+OUT;kyle;14;0;Fri Jul 22 13:42:46 CEST 2016;-13;56
+OFF;kyle
+# Server started at Fri Jul 22 13:43:10 CEST 2016
+ON ;yolo
+IN ;yolo;yolo;0;0
+OUT;yolo;0;11;Fri Jul 22 13:43:22 CEST 2016;0;0
+OFF;yolo
+ON ;swag
+IN ;swag;swag;0;0
+OUT;swag;0;11;Fri Jul 22 13:43:27 CEST 2016;0;0
+OFF;swag
+ON ;peter
+IN ;peter;peter;0;0
+OUT;peter;0;0;Fri Jul 22 13:43:31 CEST 2016;0;2096
+IN ;peter;peter;1;-1
+OUT;peter;1;0;Fri Jul 22 13:43:32 CEST 2016;-1;2095
+IN ;peter;peter;2;8
+OUT;peter;2;0;Fri Jul 22 13:43:32 CEST 2016;8;2103
+IN ;peter;peter;3;6
+OUT;peter;3;0;Fri Jul 22 13:43:32 CEST 2016;6;2109
+IN ;peter;peter;3;0
+OUT;peter;3;22;Fri Jul 22 13:43:32 CEST 2016;0;2109
+IN ;peter;peter;4;-11
+OUT;peter;4;0;Fri Jul 22 13:43:32 CEST 2016;-11;2098
+IN ;peter;peter;5;1
+OUT;peter;5;0;Fri Jul 22 13:43:32 CEST 2016;1;2099
+IN ;peter;peter;5;0
+OUT;peter;5;22;Fri Jul 22 13:43:32 CEST 2016;0;2099
+IN ;peter;peter;6;-14
+OUT;peter;6;0;Fri Jul 22 13:43:32 CEST 2016;-14;2085
+IN ;peter;peter;7;13
+OUT;peter;7;0;Fri Jul 22 13:43:33 CEST 2016;13;2098
+IN ;peter;peter;7;0
+OUT;peter;7;22;Fri Jul 22 13:43:33 CEST 2016;0;2098
+IN ;peter;peter;8;-2
+OUT;peter;8;0;Fri Jul 22 13:43:33 CEST 2016;-2;2096
+IN ;peter;peter;9;3
+OUT;peter;9;0;Fri Jul 22 13:43:33 CEST 2016;3;2099
+IN ;peter;peter;10;-13
+OUT;peter;10;0;Fri Jul 22 13:43:33 CEST 2016;-13;2086
+IN ;peter;peter;10;0
+OUT;peter;10;22;Fri Jul 22 13:43:33 CEST 2016;0;2086
+IN ;peter;peter;11;-15
+OUT;peter;11;0;Fri Jul 22 13:43:34 CEST 2016;-15;2071
+IN ;peter;peter;12;14
+OUT;peter;12;0;Fri Jul 22 13:43:34 CEST 2016;14;2085
+IN ;peter;peter;13;-10
+OUT;peter;13;0;Fri Jul 22 13:43:34 CEST 2016;-10;2075
+IN ;peter;peter;14;9
+OUT;peter;14;0;Fri Jul 22 13:43:34 CEST 2016;9;2084
+OFF;peter
+ON ;jillian
+IN ;jillian;jillian;0;0
+OUT;jillian;0;0;Fri Jul 22 13:43:44 CEST 2016;0;1765
+ON ;rodriguez
+IN ;rodriguez;rodriguez;0;0
+OUT;rodriguez;0;0;Fri Jul 22 13:43:44 CEST 2016;0;1974
+ON ;mark
+IN ;mark;mark;0;0
+OUT;mark;0;0;Fri Jul 22 13:43:44 CEST 2016;0;1925
+ON ;arthursmith
+IN ;arthursmith;arthursmith;0;0
+OUT;arthursmith;0;0;Fri Jul 22 13:43:44 CEST 2016;0;1473
+ON ;peter
+IN ;peter;peter;0;0
+OUT;peter;0;0;Fri Jul 22 13:43:44 CEST 2016;0;2084
+ON ;patty
+IN ;patty;patty;0;0
+OUT;patty;0;0;Fri Jul 22 13:43:44 CEST 2016;0;1763
+ON ;robert
+IN ;robert;robert;0;0
+OUT;robert;0;0;Fri Jul 22 13:43:45 CEST 2016;0;1120
+ON ;angela
+IN ;angela;angela;0;0
+OUT;angela;0;0;Fri Jul 22 13:43:45 CEST 2016;0;813
+ON ;greg
+IN ;greg;greg;0;0
+ON ;blacklisted
+IN ;blacklisted;blacklisted;0;0
+OUT;greg;0;0;Fri Jul 22 13:43:45 CEST 2016;0;1917
+OUT;blacklisted;0;11;Fri Jul 22 13:43:45 CEST 2016;0;0
+OFF;blacklisted
+ON ;zack
+IN ;zack;zack;0;0
+OUT;zack;0;0;Fri Jul 22 13:43:45 CEST 2016;0;2012
+ON ;simon
+IN ;simon;simon;0;0
+OUT;simon;0;0;Fri Jul 22 13:43:45 CEST 2016;0;1149
+ON ;miles
+IN ;miles;miles;0;0
+IN ;rodriguez;rodriguez;1;9
+OUT;rodriguez;1;0;Fri Jul 22 13:43:45 CEST 2016;9;1983
+OUT;miles;0;0;Fri Jul 22 13:43:45 CEST 2016;0;1739
+IN ;angela;angela;1;7
+OUT;angela;1;0;Fri Jul 22 13:43:45 CEST 2016;7;820
+ON ;coleman
+IN ;coleman;coleman;0;0
+IN ;jillian;jillian;1;-14
+OUT;coleman;0;0;Fri Jul 22 13:43:45 CEST 2016;0;1608
+OUT;jillian;1;0;Fri Jul 22 13:43:45 CEST 2016;-14;1751
+ON ;scotty
+ON ;james
+IN ;james;james;0;0
+IN ;scotty;scotty;0;0
+OUT;james;0;0;Fri Jul 22 13:43:45 CEST 2016;0;1394
+OUT;scotty;0;0;Fri Jul 22 13:43:45 CEST 2016;0;1478
+IN ;mark;mark;1;-8
+OUT;mark;1;0;Fri Jul 22 13:43:45 CEST 2016;-8;1917
+ON ;jimjohson
+IN ;jimjohson;jimjohson;0;0
+OUT;jimjohson;0;0;Fri Jul 22 13:43:45 CEST 2016;0;1681
+IN ;arthursmith;arthursmith;1;-9
+OUT;arthursmith;1;0;Fri Jul 22 13:43:45 CEST 2016;-9;1464
+IN ;miles;miles;1;9
+OUT;miles;1;0;Fri Jul 22 13:43:45 CEST 2016;9;1748
+IN ;greg;greg;1;10
+OUT;greg;1;0;Fri Jul 22 13:43:45 CEST 2016;10;1927
+IN ;jillian;jillian;2;-4
+OUT;jillian;2;0;Fri Jul 22 13:43:45 CEST 2016;-4;1747
+IN ;james;james;1;4
+OUT;james;1;0;Fri Jul 22 13:43:45 CEST 2016;4;1398
+IN ;zack;zack;1;12
+OUT;zack;1;0;Fri Jul 22 13:43:45 CEST 2016;12;2024
+IN ;patty;patty;1;-7
+OUT;patty;1;0;Fri Jul 22 13:43:45 CEST 2016;-7;1756
+IN ;rodriguez;rodriguez;2;2
+OUT;rodriguez;2;0;Fri Jul 22 13:43:45 CEST 2016;2;1985
+IN ;peter;peter;1;-3
+OUT;peter;1;0;Fri Jul 22 13:43:45 CEST 2016;-3;2081
+IN ;scotty;scotty;1;-3
+OUT;scotty;1;0;Fri Jul 22 13:43:45 CEST 2016;-3;1475
+IN ;patty;patty;2;8
+OUT;patty;2;0;Fri Jul 22 13:43:45 CEST 2016;8;1764
+IN ;robert;robert;1;-4
+OUT;robert;1;0;Fri Jul 22 13:43:45 CEST 2016;-4;1116
+IN ;angela;angela;2;-11
+OUT;angela;2;0;Fri Jul 22 13:43:45 CEST 2016;-11;809
+IN ;simon;simon;1;-11
+OUT;simon;1;0;Fri Jul 22 13:43:45 CEST 2016;-11;1138
+IN ;arthursmith;arthursmith;2;5
+IN ;mark;mark;2;-1
+IN ;coleman;coleman;1;-8
+OUT;arthursmith;2;0;Fri Jul 22 13:43:45 CEST 2016;5;1469
+OUT;mark;2;0;Fri Jul 22 13:43:45 CEST 2016;-1;1916
+OUT;coleman;1;0;Fri Jul 22 13:43:45 CEST 2016;-8;1600
+IN ;jimjohson;jimjohson;1;11
+OUT;jimjohson;1;0;Fri Jul 22 13:43:45 CEST 2016;11;1692
+IN ;patty;patty;3;1
+OUT;patty;3;0;Fri Jul 22 13:43:45 CEST 2016;1;1765
+IN ;greg;greg;2;2
+OUT;greg;2;0;Fri Jul 22 13:43:45 CEST 2016;2;1929
+IN ;miles;miles;1;0
+OUT;miles;1;22;Fri Jul 22 13:43:45 CEST 2016;0;1748
+IN ;patty;patty;4;13
+OUT;patty;4;0;Fri Jul 22 13:43:45 CEST 2016;13;1778
+IN ;scotty;scotty;2;11
+OUT;scotty;2;0;Fri Jul 22 13:43:45 CEST 2016;11;1486
+IN ;rodriguez;rodriguez;3;2
+OUT;rodriguez;3;0;Fri Jul 22 13:43:45 CEST 2016;2;1987
+IN ;peter;peter;1;0
+OUT;peter;1;22;Fri Jul 22 13:43:45 CEST 2016;0;2081
+IN ;robert;robert;2;10
+OUT;robert;2;0;Fri Jul 22 13:43:45 CEST 2016;10;1126
+IN ;simon;simon;2;-4
+OUT;simon;2;0;Fri Jul 22 13:43:45 CEST 2016;-4;1134
+IN ;zack;zack;2;2
+OUT;zack;2;0;Fri Jul 22 13:43:45 CEST 2016;2;2026
+IN ;jillian;jillian;2;0
+OUT;jillian;2;22;Fri Jul 22 13:43:45 CEST 2016;0;1747
+IN ;angela;angela;3;-13
+OUT;angela;3;0;Fri Jul 22 13:43:45 CEST 2016;-13;796
+IN ;scotty;scotty;3;-7
+OUT;scotty;3;0;Fri Jul 22 13:43:45 CEST 2016;-7;1479
+IN ;jimjohson;jimjohson;2;-3
+OUT;jimjohson;2;0;Fri Jul 22 13:43:45 CEST 2016;-3;1689
+IN ;james;james;2;7
+OUT;james;2;0;Fri Jul 22 13:43:45 CEST 2016;7;1405
+IN ;patty;patty;5;-10
+IN ;mark;mark;2;0
+OUT;patty;5;0;Fri Jul 22 13:43:45 CEST 2016;-10;1768
+OUT;mark;2;22;Fri Jul 22 13:43:45 CEST 2016;0;1916
+IN ;arthursmith;arthursmith;3;-6
+OUT;arthursmith;3;0;Fri Jul 22 13:43:45 CEST 2016;-6;1463
+IN ;miles;miles;2;0
+OUT;miles;2;0;Fri Jul 22 13:43:45 CEST 2016;0;1748
+IN ;rodriguez;rodriguez;4;-12
+OUT;rodriguez;4;0;Fri Jul 22 13:43:45 CEST 2016;-12;1975
+IN ;greg;greg;3;-6
+OUT;greg;3;0;Fri Jul 22 13:43:45 CEST 2016;-6;1923
+IN ;coleman;coleman;2;-10
+OUT;coleman;2;0;Fri Jul 22 13:43:45 CEST 2016;-10;1590
+IN ;simon;simon;3;9
+OUT;simon;3;0;Fri Jul 22 13:43:45 CEST 2016;9;1143
+IN ;robert;robert;2;0
+OUT;robert;2;22;Fri Jul 22 13:43:45 CEST 2016;0;1126
+IN ;peter;peter;2;14
+OUT;peter;2;0;Fri Jul 22 13:43:45 CEST 2016;14;2095
+IN ;jillian;jillian;2;0
+OUT;jillian;2;22;Fri Jul 22 13:43:45 CEST 2016;0;1747
+IN ;miles;miles;3;5
+OUT;miles;3;0;Fri Jul 22 13:43:45 CEST 2016;5;1753
+IN ;simon;simon;4;-2
+OUT;simon;4;0;Fri Jul 22 13:43:45 CEST 2016;-2;1141
+IN ;zack;zack;3;6
+OUT;zack;3;0;Fri Jul 22 13:43:45 CEST 2016;6;2032
+IN ;mark;mark;3;8
+OUT;mark;3;0;Fri Jul 22 13:43:45 CEST 2016;8;1924
+IN ;greg;greg;4;8
+OUT;greg;4;0;Fri Jul 22 13:43:45 CEST 2016;8;1931
+IN ;angela;angela;3;0
+OUT;angela;3;22;Fri Jul 22 13:43:45 CEST 2016;0;796
+IN ;mark;mark;4;-6
+OUT;mark;4;0;Fri Jul 22 13:43:45 CEST 2016;-6;1918
+IN ;james;james;2;0
+OUT;james;2;22;Fri Jul 22 13:43:45 CEST 2016;0;1405
+IN ;scotty;scotty;4;9
+OUT;scotty;4;0;Fri Jul 22 13:43:45 CEST 2016;9;1488
+IN ;zack;zack;4;-2
+OUT;zack;4;0;Fri Jul 22 13:43:45 CEST 2016;-2;2030
+IN ;miles;miles;4;8
+OUT;miles;4;0;Fri Jul 22 13:43:45 CEST 2016;8;1761
+IN ;angela;angela;4;6
+IN ;peter;peter;3;5
+OUT;angela;4;0;Fri Jul 22 13:43:45 CEST 2016;6;802
+OUT;peter;3;0;Fri Jul 22 13:43:45 CEST 2016;5;2100
+IN ;patty;patty;6;8
+OUT;patty;6;0;Fri Jul 22 13:43:45 CEST 2016;8;1776
+IN ;jimjohson;jimjohson;2;0
+OUT;jimjohson;2;22;Fri Jul 22 13:43:45 CEST 2016;0;1689
+IN ;greg;greg;4;0
+OUT;greg;4;22;Fri Jul 22 13:43:45 CEST 2016;0;1931
+IN ;zack;zack;4;0
+OUT;zack;4;22;Fri Jul 22 13:43:45 CEST 2016;0;2030
+IN ;jillian;jillian;2;0
+OUT;jillian;2;22;Fri Jul 22 13:43:45 CEST 2016;0;1747
+IN ;rodriguez;rodriguez;5;-15
+OUT;rodriguez;5;0;Fri Jul 22 13:43:45 CEST 2016;-15;1960
+IN ;arthursmith;arthursmith;4;-6
+OUT;arthursmith;4;0;Fri Jul 22 13:43:45 CEST 2016;-6;1457
+IN ;coleman;coleman;3;-1
+OUT;coleman;3;0;Fri Jul 22 13:43:45 CEST 2016;-1;1589
+IN ;simon;simon;5;9
+OUT;simon;5;0;Fri Jul 22 13:43:45 CEST 2016;9;1150
+IN ;mark;mark;5;10
+OUT;mark;5;0;Fri Jul 22 13:43:46 CEST 2016;10;1928
+IN ;peter;peter;3;0
+OUT;peter;3;22;Fri Jul 22 13:43:46 CEST 2016;0;2100
+IN ;miles;miles;5;-10
+OUT;miles;5;0;Fri Jul 22 13:43:46 CEST 2016;-10;1751
+IN ;patty;patty;7;12
+OUT;patty;7;0;Fri Jul 22 13:43:46 CEST 2016;12;1788
+IN ;jimjohson;jimjohson;3;3
+OUT;jimjohson;3;0;Fri Jul 22 13:43:46 CEST 2016;3;1692
+IN ;robert;robert;2;0
+OUT;robert;2;22;Fri Jul 22 13:43:46 CEST 2016;0;1126
+IN ;simon;simon;6;1
+OUT;simon;6;0;Fri Jul 22 13:43:46 CEST 2016;1;1151
+IN ;scotty;scotty;5;0
+OUT;scotty;5;0;Fri Jul 22 13:43:46 CEST 2016;0;1488
+IN ;angela;angela;5;-7
+OUT;angela;5;0;Fri Jul 22 13:43:46 CEST 2016;-7;795
+IN ;greg;greg;5;-7
+OUT;greg;5;0;Fri Jul 22 13:43:46 CEST 2016;-7;1924
+IN ;rodriguez;rodriguez;5;0
+OUT;rodriguez;5;22;Fri Jul 22 13:43:46 CEST 2016;0;1960
+IN ;jimjohson;jimjohson;4;-5
+OUT;jimjohson;4;0;Fri Jul 22 13:43:46 CEST 2016;-5;1687
+IN ;jillian;jillian;2;0
+OUT;jillian;2;22;Fri Jul 22 13:43:46 CEST 2016;0;1747
+IN ;zack;zack;5;-13
+OUT;zack;5;0;Fri Jul 22 13:43:46 CEST 2016;-13;2017
+IN ;arthursmith;arthursmith;4;0
+OUT;arthursmith;4;22;Fri Jul 22 13:43:46 CEST 2016;0;1457
+IN ;james;james;3;-3
+OUT;james;3;0;Fri Jul 22 13:43:46 CEST 2016;-3;1402
+IN ;coleman;coleman;4;-9
+OUT;coleman;4;0;Fri Jul 22 13:43:46 CEST 2016;-9;1580
+IN ;simon;simon;7;-2
+OUT;simon;7;0;Fri Jul 22 13:43:46 CEST 2016;-2;1149
+IN ;mark;mark;6;3
+OUT;mark;6;0;Fri Jul 22 13:43:46 CEST 2016;3;1931
+IN ;robert;robert;2;0
+OUT;robert;2;22;Fri Jul 22 13:43:46 CEST 2016;0;1126
+IN ;peter;peter;4;-10
+OUT;peter;4;0;Fri Jul 22 13:43:46 CEST 2016;-10;2090
+IN ;scotty;scotty;6;-5
+OUT;scotty;6;0;Fri Jul 22 13:43:46 CEST 2016;-5;1483
+IN ;jimjohson;jimjohson;5;2
+OUT;jimjohson;5;0;Fri Jul 22 13:43:46 CEST 2016;2;1689
+IN ;james;james;4;9
+OUT;james;4;0;Fri Jul 22 13:43:46 CEST 2016;9;1411
+IN ;coleman;coleman;5;-14
+OUT;coleman;5;0;Fri Jul 22 13:43:46 CEST 2016;-14;1566
+IN ;angela;angela;6;-10
+OUT;angela;6;0;Fri Jul 22 13:43:46 CEST 2016;-10;785
+IN ;miles;miles;6;10
+OUT;miles;6;0;Fri Jul 22 13:43:46 CEST 2016;10;1761
+IN ;patty;patty;7;0
+OUT;patty;7;22;Fri Jul 22 13:43:46 CEST 2016;0;1788
+IN ;jillian;jillian;3;12
+OUT;jillian;3;0;Fri Jul 22 13:43:46 CEST 2016;12;1759
+IN ;rodriguez;rodriguez;6;-6
+OUT;rodriguez;6;0;Fri Jul 22 13:43:46 CEST 2016;-6;1954
+IN ;arthursmith;arthursmith;5;4
+OUT;arthursmith;5;0;Fri Jul 22 13:43:46 CEST 2016;4;1461
+IN ;mark;mark;7;-6
+OUT;mark;7;0;Fri Jul 22 13:43:46 CEST 2016;-6;1925
+IN ;zack;zack;6;-11
+OUT;zack;6;0;Fri Jul 22 13:43:46 CEST 2016;-11;2006
+IN ;peter;peter;5;-12
+OUT;peter;5;0;Fri Jul 22 13:43:46 CEST 2016;-12;2078
+IN ;rodriguez;rodriguez;6;0
+IN ;scotty;scotty;7;1
+OUT;rodriguez;6;22;Fri Jul 22 13:43:46 CEST 2016;0;1954
+OUT;scotty;7;0;Fri Jul 22 13:43:46 CEST 2016;1;1484
+IN ;coleman;coleman;6;8
+OUT;coleman;6;0;Fri Jul 22 13:43:46 CEST 2016;8;1574
+IN ;simon;simon;8;13
+OUT;simon;8;0;Fri Jul 22 13:43:46 CEST 2016;13;1162
+IN ;james;james;5;13
+OUT;james;5;0;Fri Jul 22 13:43:46 CEST 2016;13;1424
+IN ;scotty;scotty;8;-11
+OUT;scotty;8;0;Fri Jul 22 13:43:46 CEST 2016;-11;1473
+IN ;greg;greg;6;-9
+OUT;greg;6;0;Fri Jul 22 13:43:46 CEST 2016;-9;1915
+IN ;robert;robert;3;-3
+OUT;robert;3;0;Fri Jul 22 13:43:46 CEST 2016;-3;1123
+IN ;mark;mark;8;4
+OUT;mark;8;0;Fri Jul 22 13:43:46 CEST 2016;4;1929
+IN ;miles;miles;7;-6
+OUT;miles;7;0;Fri Jul 22 13:43:46 CEST 2016;-6;1755
+IN ;james;james;6;-4
+OUT;james;6;0;Fri Jul 22 13:43:46 CEST 2016;-4;1420
+IN ;patty;patty;8;-1
+OUT;patty;8;0;Fri Jul 22 13:43:46 CEST 2016;-1;1787
+IN ;arthursmith;arthursmith;5;0
+OUT;arthursmith;5;22;Fri Jul 22 13:43:46 CEST 2016;0;1461
+IN ;peter;peter;6;10
+OUT;peter;6;0;Fri Jul 22 13:43:46 CEST 2016;10;2088
+IN ;greg;greg;7;-14
+OUT;greg;7;0;Fri Jul 22 13:43:46 CEST 2016;-14;1901
+IN ;angela;angela;7;1
+OUT;angela;7;0;Fri Jul 22 13:43:46 CEST 2016;1;786
+IN ;jimjohson;jimjohson;6;7
+OUT;jimjohson;6;0;Fri Jul 22 13:43:46 CEST 2016;7;1696
+IN ;miles;miles;8;1
+OUT;miles;8;0;Fri Jul 22 13:43:46 CEST 2016;1;1756
+IN ;coleman;coleman;6;0
+OUT;coleman;6;22;Fri Jul 22 13:43:46 CEST 2016;0;1574
+IN ;jillian;jillian;4;-7
+OUT;jillian;4;0;Fri Jul 22 13:43:46 CEST 2016;-7;1752
+IN ;rodriguez;rodriguez;6;0
+OUT;rodriguez;6;22;Fri Jul 22 13:43:46 CEST 2016;0;1954
+IN ;arthursmith;arthursmith;6;-3
+OUT;arthursmith;6;0;Fri Jul 22 13:43:46 CEST 2016;-3;1458
+IN ;scotty;scotty;9;3
+OUT;scotty;9;0;Fri Jul 22 13:43:46 CEST 2016;3;1476
+IN ;mark;mark;9;6
+OUT;mark;9;0;Fri Jul 22 13:43:46 CEST 2016;6;1935
+IN ;james;james;6;0
+OUT;james;6;22;Fri Jul 22 13:43:46 CEST 2016;0;1420
+IN ;simon;simon;8;0
+OUT;simon;8;22;Fri Jul 22 13:43:46 CEST 2016;0;1162
+IN ;zack;zack;7;-11
+OUT;zack;7;0;Fri Jul 22 13:43:46 CEST 2016;-11;1995
+IN ;greg;greg;7;0
+OUT;greg;7;22;Fri Jul 22 13:43:46 CEST 2016;0;1901
+IN ;robert;robert;4;-4
+OUT;robert;4;0;Fri Jul 22 13:43:46 CEST 2016;-4;1119
+IN ;peter;peter;6;0
+OUT;peter;6;22;Fri Jul 22 13:43:46 CEST 2016;0;2088
+IN ;miles;miles;9;4
+OUT;miles;9;0;Fri Jul 22 13:43:46 CEST 2016;4;1760
+IN ;jimjohson;jimjohson;7;2
+OUT;jimjohson;7;0;Fri Jul 22 13:43:46 CEST 2016;2;1698
+IN ;coleman;coleman;6;0
+OUT;coleman;6;22;Fri Jul 22 13:43:46 CEST 2016;0;1574
+IN ;greg;greg;7;0
+OUT;greg;7;22;Fri Jul 22 13:43:46 CEST 2016;0;1901
+IN ;zack;zack;8;-5
+OUT;zack;8;0;Fri Jul 22 13:43:46 CEST 2016;-5;1990
+IN ;rodriguez;rodriguez;7;-1
+OUT;rodriguez;7;0;Fri Jul 22 13:43:46 CEST 2016;-1;1953
+IN ;peter;peter;7;-14
+OUT;peter;7;0;Fri Jul 22 13:43:46 CEST 2016;-14;2074
+IN ;jillian;jillian;5;0
+OUT;jillian;5;0;Fri Jul 22 13:43:46 CEST 2016;0;1752
+IN ;angela;angela;7;0
+OUT;angela;7;22;Fri Jul 22 13:43:46 CEST 2016;0;786
+IN ;patty;patty;9;-12
+OUT;patty;9;0;Fri Jul 22 13:43:46 CEST 2016;-12;1775
+IN ;arthursmith;arthursmith;7;-15
+OUT;arthursmith;7;0;Fri Jul 22 13:43:46 CEST 2016;-15;1443
+IN ;simon;simon;9;14
+OUT;simon;9;0;Fri Jul 22 13:43:46 CEST 2016;14;1176
+IN ;coleman;coleman;6;0
+OUT;coleman;6;22;Fri Jul 22 13:43:46 CEST 2016;0;1574
+IN ;robert;robert;5;-11
+OUT;robert;5;0;Fri Jul 22 13:43:46 CEST 2016;-11;1108
+IN ;scotty;scotty;10;-13
+OUT;scotty;10;0;Fri Jul 22 13:43:46 CEST 2016;-13;1463
+IN ;mark;mark;10;-13
+OUT;mark;10;0;Fri Jul 22 13:43:46 CEST 2016;-13;1922
+IN ;james;james;7;-5
+OUT;james;7;0;Fri Jul 22 13:43:46 CEST 2016;-5;1415
+IN ;arthursmith;arthursmith;8;14
+OUT;arthursmith;8;0;Fri Jul 22 13:43:47 CEST 2016;14;1457
+IN ;james;james;8;14
+OUT;james;8;0;Fri Jul 22 13:43:47 CEST 2016;14;1429
+IN ;jimjohson;jimjohson;8;7
+OUT;jimjohson;8;0;Fri Jul 22 13:43:47 CEST 2016;7;1705
+IN ;peter;peter;8;1
+OUT;peter;8;0;Fri Jul 22 13:43:47 CEST 2016;1;2075
+IN ;coleman;coleman;6;0
+OUT;coleman;6;22;Fri Jul 22 13:43:47 CEST 2016;0;1574
+IN ;jillian;jillian;6;-6
+OUT;jillian;6;0;Fri Jul 22 13:43:47 CEST 2016;-6;1746
+IN ;scotty;scotty;10;0
+OUT;scotty;10;22;Fri Jul 22 13:43:47 CEST 2016;0;1463
+IN ;miles;miles;10;-11
+OUT;miles;10;0;Fri Jul 22 13:43:47 CEST 2016;-11;1749
+IN ;rodriguez;rodriguez;8;-7
+OUT;rodriguez;8;0;Fri Jul 22 13:43:47 CEST 2016;-7;1946
+IN ;angela;angela;8;11
+OUT;angela;8;0;Fri Jul 22 13:43:47 CEST 2016;11;797
+IN ;simon;simon;10;0
+OUT;simon;10;0;Fri Jul 22 13:43:47 CEST 2016;0;1176
+IN ;coleman;coleman;7;3
+OUT;coleman;7;0;Fri Jul 22 13:43:47 CEST 2016;3;1577
+IN ;mark;mark;10;0
+OUT;mark;10;22;Fri Jul 22 13:43:47 CEST 2016;0;1922
+IN ;james;james;9;13
+OUT;james;9;0;Fri Jul 22 13:43:47 CEST 2016;13;1442
+IN ;zack;zack;9;-3
+OUT;zack;9;0;Fri Jul 22 13:43:47 CEST 2016;-3;1987
+IN ;patty;patty;9;0
+OUT;patty;9;22;Fri Jul 22 13:43:47 CEST 2016;0;1775
+IN ;rodriguez;rodriguez;9;-2
+OUT;rodriguez;9;0;Fri Jul 22 13:43:47 CEST 2016;-2;1944
+IN ;greg;greg;8;14
+OUT;greg;8;0;Fri Jul 22 13:43:47 CEST 2016;14;1915
+IN ;miles;miles;11;8
+OUT;miles;11;0;Fri Jul 22 13:43:47 CEST 2016;8;1757
+IN ;peter;peter;9;-6
+IN ;robert;robert;5;0
+OUT;peter;9;0;Fri Jul 22 13:43:47 CEST 2016;-6;2069
+OUT;robert;5;22;Fri Jul 22 13:43:47 CEST 2016;0;1108
+IN ;jimjohson;jimjohson;9;-6
+OUT;jimjohson;9;0;Fri Jul 22 13:43:47 CEST 2016;-6;1699
+IN ;scotty;scotty;11;3
+IN ;jillian;jillian;7;11
+OUT;scotty;11;0;Fri Jul 22 13:43:47 CEST 2016;3;1466
+OUT;jillian;7;0;Fri Jul 22 13:43:47 CEST 2016;11;1757
+IN ;angela;angela;8;0
+OUT;angela;8;22;Fri Jul 22 13:43:47 CEST 2016;0;797
+IN ;simon;simon;10;0
+OUT;simon;10;22;Fri Jul 22 13:43:47 CEST 2016;0;1176
+IN ;peter;peter;9;0
+IN ;arthursmith;arthursmith;9;-2
+OUT;peter;9;22;Fri Jul 22 13:43:47 CEST 2016;0;2069
+OUT;arthursmith;9;0;Fri Jul 22 13:43:47 CEST 2016;-2;1455
+IN ;zack;zack;10;-3
+OUT;zack;10;0;Fri Jul 22 13:43:47 CEST 2016;-3;1984
+IN ;mark;mark;11;8
+OUT;mark;11;0;Fri Jul 22 13:43:47 CEST 2016;8;1930
+IN ;patty;patty;10;-4
+OUT;patty;10;0;Fri Jul 22 13:43:47 CEST 2016;-4;1771
+IN ;robert;robert;6;8
+OUT;robert;6;0;Fri Jul 22 13:43:47 CEST 2016;8;1116
+IN ;james;james;9;0
+OUT;james;9;22;Fri Jul 22 13:43:47 CEST 2016;0;1442
+IN ;miles;miles;12;-13
+OUT;miles;12;0;Fri Jul 22 13:43:47 CEST 2016;-13;1744
+IN ;coleman;coleman;8;-15
+OUT;coleman;8;0;Fri Jul 22 13:43:47 CEST 2016;-15;1562
+IN ;greg;greg;9;12
+OUT;greg;9;0;Fri Jul 22 13:43:47 CEST 2016;12;1927
+IN ;angela;angela;9;-11
+OUT;angela;9;0;Fri Jul 22 13:43:47 CEST 2016;-11;786
+IN ;rodriguez;rodriguez;10;10
+OUT;rodriguez;10;0;Fri Jul 22 13:43:47 CEST 2016;10;1954
+IN ;jillian;jillian;7;0
+OUT;jillian;7;22;Fri Jul 22 13:43:47 CEST 2016;0;1757
+IN ;coleman;coleman;9;-12
+OUT;coleman;9;0;Fri Jul 22 13:43:47 CEST 2016;-12;1550
+IN ;patty;patty;11;-11
+OUT;patty;11;0;Fri Jul 22 13:43:47 CEST 2016;-11;1760
+IN ;scotty;scotty;11;0
+OUT;scotty;11;22;Fri Jul 22 13:43:47 CEST 2016;0;1466
+IN ;zack;zack;11;-6
+OUT;zack;11;0;Fri Jul 22 13:43:47 CEST 2016;-6;1978
+IN ;mark;mark;12;1
+OUT;mark;12;0;Fri Jul 22 13:43:47 CEST 2016;1;1931
+IN ;james;james;10;-7
+OUT;james;10;0;Fri Jul 22 13:43:47 CEST 2016;-7;1435
+IN ;jimjohson;jimjohson;10;4
+OUT;jimjohson;10;0;Fri Jul 22 13:43:47 CEST 2016;4;1703
+IN ;coleman;coleman;10;-12
+OUT;coleman;10;0;Fri Jul 22 13:43:47 CEST 2016;-12;1538
+IN ;angela;angela;10;-15
+OUT;angela;10;0;Fri Jul 22 13:43:47 CEST 2016;-15;771
+IN ;arthursmith;arthursmith;10;-15
+OUT;arthursmith;10;0;Fri Jul 22 13:43:47 CEST 2016;-15;1440
+IN ;simon;simon;10;0
+OUT;simon;10;22;Fri Jul 22 13:43:47 CEST 2016;0;1176
+IN ;robert;robert;7;-4
+OUT;robert;7;0;Fri Jul 22 13:43:47 CEST 2016;-4;1112
+IN ;simon;simon;11;11
+OUT;simon;11;0;Fri Jul 22 13:43:47 CEST 2016;11;1187
+IN ;patty;patty;11;0
+OUT;patty;11;22;Fri Jul 22 13:43:47 CEST 2016;0;1760
+IN ;peter;peter;10;-11
+OUT;peter;10;0;Fri Jul 22 13:43:47 CEST 2016;-11;2058
+IN ;coleman;coleman;11;3
+OUT;coleman;11;0;Fri Jul 22 13:43:47 CEST 2016;3;1541
+IN ;zack;zack;12;-14
+OUT;zack;12;0;Fri Jul 22 13:43:47 CEST 2016;-14;1964
+IN ;jimjohson;jimjohson;10;0
+OUT;jimjohson;10;22;Fri Jul 22 13:43:47 CEST 2016;0;1703
+IN ;miles;miles;12;0
+OUT;miles;12;22;Fri Jul 22 13:43:47 CEST 2016;0;1744
+IN ;simon;simon;12;2
+OUT;simon;12;0;Fri Jul 22 13:43:47 CEST 2016;2;1189
+IN ;greg;greg;10;0
+IN ;jimjohson;jimjohson;11;-3
+OUT;greg;10;0;Fri Jul 22 13:43:47 CEST 2016;0;1927
+OUT;jimjohson;11;0;Fri Jul 22 13:43:47 CEST 2016;-3;1700
+IN ;mark;mark;13;1
+OUT;mark;13;0;Fri Jul 22 13:43:47 CEST 2016;1;1932
+IN ;coleman;coleman;12;9
+OUT;coleman;12;0;Fri Jul 22 13:43:47 CEST 2016;9;1550
+IN ;rodriguez;rodriguez;11;-1
+OUT;rodriguez;11;0;Fri Jul 22 13:43:47 CEST 2016;-1;1953
+IN ;scotty;scotty;12;1
+OUT;scotty;12;0;Fri Jul 22 13:43:47 CEST 2016;1;1467
+IN ;simon;simon;13;-12
+OUT;simon;13;0;Fri Jul 22 13:43:47 CEST 2016;-12;1177
+IN ;peter;peter;11;-13
+OUT;peter;11;0;Fri Jul 22 13:43:47 CEST 2016;-13;2045
+IN ;jillian;jillian;7;0
+OUT;jillian;7;22;Fri Jul 22 13:43:47 CEST 2016;0;1757
+IN ;james;james;11;5
+OUT;james;11;0;Fri Jul 22 13:43:47 CEST 2016;5;1440
+IN ;zack;zack;13;-12
+OUT;zack;13;0;Fri Jul 22 13:43:47 CEST 2016;-12;1952
+IN ;miles;miles;13;-1
+OUT;miles;13;0;Fri Jul 22 13:43:47 CEST 2016;-1;1743
+IN ;arthursmith;arthursmith;10;0
+OUT;arthursmith;10;22;Fri Jul 22 13:43:47 CEST 2016;0;1440
+IN ;greg;greg;10;0
+OUT;greg;10;22;Fri Jul 22 13:43:47 CEST 2016;0;1927
+IN ;robert;robert;8;-7
+OUT;robert;8;0;Fri Jul 22 13:43:47 CEST 2016;-7;1105
+IN ;angela;angela;11;-12
+OUT;angela;11;0;Fri Jul 22 13:43:47 CEST 2016;-12;759
+IN ;jimjohson;jimjohson;12;-12
+OUT;jimjohson;12;0;Fri Jul 22 13:43:47 CEST 2016;-12;1688
+IN ;coleman;coleman;12;0
+OUT;coleman;12;22;Fri Jul 22 13:43:47 CEST 2016;0;1550
+IN ;rodriguez;rodriguez;12;-1
+OUT;rodriguez;12;0;Fri Jul 22 13:43:47 CEST 2016;-1;1952
+IN ;patty;patty;12;-1
+OUT;patty;12;0;Fri Jul 22 13:43:48 CEST 2016;-1;1759
+IN ;jillian;jillian;8;-15
+OUT;jillian;8;0;Fri Jul 22 13:43:48 CEST 2016;-15;1742
+IN ;mark;mark;14;3
+OUT;mark;14;0;Fri Jul 22 13:43:48 CEST 2016;3;1935
+IN ;peter;peter;12;11
+OUT;peter;12;0;Fri Jul 22 13:43:48 CEST 2016;11;2056
+IN ;zack;zack;14;5
+OUT;zack;14;0;Fri Jul 22 13:43:48 CEST 2016;5;1957
+IN ;coleman;coleman;13;-10
+OUT;coleman;13;0;Fri Jul 22 13:43:48 CEST 2016;-10;1540
+IN ;jimjohson;jimjohson;13;11
+OUT;jimjohson;13;0;Fri Jul 22 13:43:48 CEST 2016;11;1699
+IN ;scotty;scotty;13;-12
+OUT;scotty;13;0;Fri Jul 22 13:43:48 CEST 2016;-12;1455
+IN ;james;james;12;-1
+OUT;james;12;0;Fri Jul 22 13:43:48 CEST 2016;-1;1439
+IN ;greg;greg;11;9
+OUT;greg;11;0;Fri Jul 22 13:43:48 CEST 2016;9;1936
+IN ;coleman;coleman;14;-11
+IN ;rodriguez;rodriguez;13;-2
+OUT;coleman;14;0;Fri Jul 22 13:43:48 CEST 2016;-11;1529
+OUT;rodriguez;13;0;Fri Jul 22 13:43:48 CEST 2016;-2;1950
+IN ;simon;simon;13;0
+OUT;simon;13;22;Fri Jul 22 13:43:48 CEST 2016;0;1177
+IN ;angela;angela;12;-1
+OUT;angela;12;0;Fri Jul 22 13:43:48 CEST 2016;-1;758
+IN ;miles;miles;14;-15
+OUT;miles;14;0;Fri Jul 22 13:43:48 CEST 2016;-15;1728
+IN ;patty;patty;13;10
+OUT;patty;13;0;Fri Jul 22 13:43:48 CEST 2016;10;1769
+IN ;jillian;jillian;9;8
+OUT;jillian;9;0;Fri Jul 22 13:43:48 CEST 2016;8;1750
+IN ;peter;peter;13;10
+OUT;peter;13;0;Fri Jul 22 13:43:48 CEST 2016;10;2066
+OFF;mark
+OFF;zack
+IN ;arthursmith;arthursmith;11;8
+OUT;arthursmith;11;0;Fri Jul 22 13:43:48 CEST 2016;8;1448
+IN ;robert;robert;9;-11
+OUT;robert;9;0;Fri Jul 22 13:43:48 CEST 2016;-11;1094
+IN ;simon;simon;14;5
+OUT;simon;14;0;Fri Jul 22 13:43:48 CEST 2016;5;1182
+OFF;miles
+OFF;coleman
+IN ;james;james;13;3
+OUT;james;13;0;Fri Jul 22 13:43:48 CEST 2016;3;1442
+IN ;jimjohson;jimjohson;14;3
+OUT;jimjohson;14;0;Fri Jul 22 13:43:48 CEST 2016;3;1702
+OFF;jimjohson
+IN ;rodriguez;rodriguez;14;-11
+IN ;scotty;scotty;14;12
+OUT;rodriguez;14;0;Fri Jul 22 13:43:48 CEST 2016;-11;1939
+OUT;scotty;14;0;Fri Jul 22 13:43:48 CEST 2016;12;1467
+IN ;jillian;jillian;10;-3
+OUT;jillian;10;0;Fri Jul 22 13:43:48 CEST 2016;-3;1747
+IN ;greg;greg;11;0
+OUT;greg;11;22;Fri Jul 22 13:43:48 CEST 2016;0;1936
+OFF;simon
+IN ;patty;patty;14;-5
+OUT;patty;14;0;Fri Jul 22 13:43:48 CEST 2016;-5;1764
+IN ;robert;robert;10;-14
+OUT;robert;10;0;Fri Jul 22 13:43:48 CEST 2016;-14;1080
+IN ;angela;angela;13;4
+OUT;angela;13;0;Fri Jul 22 13:43:48 CEST 2016;4;762
+OFF;patty
+IN ;peter;peter;14;-1
+OUT;peter;14;0;Fri Jul 22 13:43:48 CEST 2016;-1;2065
+OFF;rodriguez
+IN ;james;james;14;0
+OUT;james;14;0;Fri Jul 22 13:43:48 CEST 2016;0;1442
+OFF;scotty
+IN ;arthursmith;arthursmith;12;8
+OUT;arthursmith;12;0;Fri Jul 22 13:43:48 CEST 2016;8;1456
+OFF;peter
+IN ;robert;robert;11;-6
+OUT;robert;11;0;Fri Jul 22 13:43:48 CEST 2016;-6;1074
+IN ;greg;greg;12;12
+OUT;greg;12;0;Fri Jul 22 13:43:48 CEST 2016;12;1948
+IN ;jillian;jillian;11;12
+OUT;jillian;11;0;Fri Jul 22 13:43:48 CEST 2016;12;1759
+IN ;arthursmith;arthursmith;13;4
+OUT;arthursmith;13;0;Fri Jul 22 13:43:48 CEST 2016;4;1460
+OFF;james
+IN ;angela;angela;14;-10
+OUT;angela;14;0;Fri Jul 22 13:43:48 CEST 2016;-10;752
+IN ;robert;robert;12;10
+OUT;robert;12;0;Fri Jul 22 13:43:48 CEST 2016;10;1084
+OFF;angela
+IN ;arthursmith;arthursmith;13;0
+OUT;arthursmith;13;22;Fri Jul 22 13:43:48 CEST 2016;0;1460
+IN ;robert;robert;13;13
+OUT;robert;13;0;Fri Jul 22 13:43:48 CEST 2016;13;1097
+IN ;greg;greg;12;0
+OUT;greg;12;22;Fri Jul 22 13:43:48 CEST 2016;0;1948
+IN ;jillian;jillian;12;-14
+OUT;jillian;12;0;Fri Jul 22 13:43:48 CEST 2016;-14;1745
+IN ;robert;robert;13;0
+OUT;robert;13;22;Fri Jul 22 13:43:48 CEST 2016;0;1097
+IN ;arthursmith;arthursmith;14;9
+OUT;arthursmith;14;0;Fri Jul 22 13:43:48 CEST 2016;9;1469
+IN ;jillian;jillian;13;-14
+OUT;jillian;13;0;Fri Jul 22 13:43:48 CEST 2016;-14;1731
+IN ;greg;greg;13;12
+OUT;greg;13;0;Fri Jul 22 13:43:49 CEST 2016;12;1960
+IN ;robert;robert;13;0
+OUT;robert;13;22;Fri Jul 22 13:43:49 CEST 2016;0;1097
+OFF;arthursmith
+IN ;jillian;jillian;14;8
+OUT;jillian;14;0;Fri Jul 22 13:43:49 CEST 2016;8;1739
+IN ;robert;robert;14;1
+OUT;robert;14;0;Fri Jul 22 13:43:49 CEST 2016;1;1098
+OFF;jillian
+OFF;robert
+IN ;greg;greg;14;4
+OUT;greg;14;0;Fri Jul 22 13:43:49 CEST 2016;4;1964
+OFF;greg
