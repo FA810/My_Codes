@@ -13,12 +13,12 @@ public class Settings {
 	public static boolean showCompleteBoardOnStartup = true;
 
 	// GUI game settings
-	public static Integer preferredButtonSizeInGUI = 60;
+	public static Integer preferredButtonSizeInGUI = 56;
 	public static Integer preferredProgressBarSizeInGUI = 20;
 	public static Integer preferredTextAreaSizeInGUI = 250;
 	public static Integer preferredWindowSizeInGUI = preferredButtonSizeInGUI
 			* 4 + preferredProgressBarSizeInGUI + preferredTextAreaSizeInGUI
-			+ 26;
+			+ 30;
 	public static boolean useNimbusLookAndFeel = false;
 	public static boolean shuffleDispositionForTheGame = false;
 }
